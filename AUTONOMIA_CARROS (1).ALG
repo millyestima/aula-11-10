@@ -1,6 +1,6 @@
 algoritmo "autonomia_carros"
-
-// DeclaraÁ„o de vari·veis
+(primeira altera√ß√£o)
+// Declara√ß√£o de vari√°veis
 variaveis
     distancia, litros, autonomia: real
     mais_economico, menos_economico: real
@@ -13,7 +13,7 @@ inicio
 
     // Loop para entrada de dados
     repita
-        escreva("Digite a dist‚ncia percorrida (0 para sair): ")
+        escreva("Digite a dist√¢ncia percorrida (0 para sair): ")
         leia(distancia)
 
         se distancia <> 0 entao
@@ -42,8 +42,8 @@ inicio
 
     // Exibe os resultados
     se contador > 0 entao
-        escreva("Carro mais econÙmico: ", mais_economico:0:2, " Km/L")
-        escreva("Carro menos econÙmico: ", menos_economico:0:2, " Km/L")
+        escreva("Carro mais econ√¥mico: ", mais_economico:0:2, " Km/L")
+        escreva("Carro menos econ√¥mico: ", menos_economico:0:2, " Km/L")
     senao
         escreva("Nenhum carro foi registrado.")
 
