@@ -7,9 +7,9 @@ variaveis
     contador: inteiro
 
 inicio
-    mais_economico <- 0
-    menos_economico <- 0
-    contador <- 0
+    mais_economico <- 1
+    menos_economico <- 1
+    contador <- 1
 
     // Loop para entrada de dados
     repita
